@@ -8,8 +8,6 @@ testRelease()
 ---
 config_vars:
   JAVA_OPTS: -Xss512k
-addons:
-  - heroku-postgresql
 
 EOF`
 
