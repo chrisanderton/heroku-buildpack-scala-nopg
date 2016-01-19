@@ -10,8 +10,6 @@ cat <<EOF
 ---
 config_vars:
   JAVA_OPTS: -Xss512k
-addons:
-  - heroku-postgresql
 
 EOF
 if [ ! -f $BUILD_DIR/Procfile ]; then
